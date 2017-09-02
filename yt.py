@@ -12,7 +12,7 @@ import requests
 base_url = 'https://www.youtube.com/results?search_query='
 yt = 'https://youtube.com'
 
-search = input('Hledany vyraz? : ')
+search = input('What do you looking for? : ')
 url = base_url+search
 
 header = {'user-agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'}
