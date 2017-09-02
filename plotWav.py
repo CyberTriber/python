@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import wave
 
+# change name of your wav file, must be in the same directory as script
 file = 'loop_2.wav'
 
 with wave.open(file,'r') as wav_file:
