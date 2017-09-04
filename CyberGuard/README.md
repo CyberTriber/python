@@ -53,7 +53,7 @@ pip install os
  You can use these commands to control your bot (this example is for ! as command prefix):
  
    User commands:
-   * ``` !contact ``` Bot sends your contact information you providein step 3 to the chat
+   * ``` !contact ``` Bot sends your contact information you provide in step 3 to the chat
    * ``` !coin ``` Bot toss coin and send result (HEADS or TAILS) to the chat
    
    Admin commands:
