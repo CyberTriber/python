@@ -29,7 +29,7 @@ pip install os
   
   On the next screen click to Crate a Bot User and confirm
   Reveal your bot token by clicking link next to it and save it (this will be your token in aplication)
-  Copy your bot ClientID and visit this page (replace ##### with your bot clientID and authorize your bo
+  Copy your bot ClientID and visit this page (replace ##### with your bot clientID and authorize your bot
   ```
   https://discordapp.com/oauth2/authorize?client_id=#####&scope=bot&permissions=0
   ```
