@@ -61,7 +61,7 @@ def is_in_db(user_id):
 
 
 def setLevel(user_id, newPoints):
-    newLevel = 0
+    newLevel = 1
     for i in range(1,len(LEVEL_SYSTEM)+1):
 	    if newPoints >= LEVEL_SYSTEM.get(i).get('cap'):
 	        newLevel = LEVEL_SYSTEM.get(i).get('level')
