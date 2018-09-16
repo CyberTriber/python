@@ -97,6 +97,9 @@ async def info(ctx,  user=''):
 			status = str(user.status)
 			level_cap={'0': 1,'1': 1, '2': 10, '3': 100, '4': 500, '5': 1000, '6': 2000, '7': 5000}
 			color = STATUS_COLORS.get(status)
+			t = datetime.datetime.strptime(str(user.joined_at), '%Y-%m-%d %H:%M:%S.%f')
+			e = (t - datetime.datetime(1970, 1, 1)).total_seconds()
+			joined = datetime.datetime.fromtimestamp(e).strftime('%Y-%m-%d %H:%M:%S')
 
 		except Exception as e:
 			error = True
